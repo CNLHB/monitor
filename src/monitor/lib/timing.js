@@ -2,7 +2,9 @@ import tracker from "../utils/tracker";
 import onload from "../utils/onload";
 import getLastEvent from "../utils/getLastEvent";
 import getSelector from "../utils/getSelector";
-
+function formatTime(time){
+  return time
+}
 export function timing() {
   let FMP, LCP;
   // 增加一个性能条目的观察者

@@ -1,4 +1,4 @@
-import tracker from "../util/tracker";
+import tracker from "../utils/tracker.js";
 export function pv() {
   var connection = navigator.connection;
   tracker.send({
